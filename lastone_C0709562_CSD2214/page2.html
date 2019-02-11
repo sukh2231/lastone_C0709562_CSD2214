@@ -1,13 +1,17 @@
-﻿<script type="text/javascript">
-    var row = prompt("How many rows for your multiplication table?");
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>hello world</title>
+    <script type="text/javascript">
+    var rows = prompt("How many rows for your multiplication table?");
     var cols = prompt("How many rows for your multiplication table?");
-    if (row == "" || rows == null)
+    if (rows == "" || rows == null)
         rows = 10;
     if (cols == "" || cols == null)
         cols = 10;
-    creatTable(rows, cols0  
+        createTable(rows , cols);
 
-    fuction create Table(rows, cols)
+    function createTable(rows, cols)
         {
             var j = 1;
             var output = "<table border='1' width ='500'cellspacing = '0'cellpadding = '5' > ";
@@ -23,3 +27,10 @@
     output = output + "</table>";
     document.write(output);
         }
+     </script>
+
+</head>
+<body>
+    
+</body>
+</html>
